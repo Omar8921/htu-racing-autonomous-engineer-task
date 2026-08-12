@@ -1,5 +1,6 @@
 recruitment_data/
 
+.venv/
 .vscode/
 __pycache__/
 
