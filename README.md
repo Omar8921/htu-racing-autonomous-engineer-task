@@ -2,7 +2,7 @@ The ROS2 bag can be found in this Google Drive link: https://drive.google.com/dr
 
 To run the bag:
 
-1) Go to the folder *recruitment_data* inside *ros_ws*
+1) Go to the folder *recruitment_data* inside project root
 2) Run this command
 
 ```

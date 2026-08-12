@@ -1,2 +1,5 @@
 recruitment_data/
 .vscode/
+ros_ws/log/
+ros_ws/build/
+ros_ws/install/
