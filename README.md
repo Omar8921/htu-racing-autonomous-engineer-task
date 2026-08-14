@@ -1,10 +1,58 @@
 # HTU Racing — Autonomous Recruitment Task
 
 ## Environment
+This task must be completed using **ROS 2 Jazzy**. Other ROS 2 distributions are not supported for this recruitment task.
 
 * Ubuntu
 * ROS 2 Jazzy
 * Python 3
+
+## Dependencies and Virtual Environment
+
+From the project root, first source ROS 2:
+
+```bash
+source /opt/ros/jazzy/setup.bash
+```
+
+Install the required system and ROS 2 packages:
+
+```bash
+sudo apt update
+
+grep -vE '^\s*(#|$)' apt-packages.txt | \
+  xargs sudo apt install -y
+```
+
+Create a Python virtual environment:
+
+```bash
+python3 -m venv --system-site-packages .venv
+```
+
+Activate it:
+
+```bash
+source .venv/bin/activate
+```
+
+Install the required Python dependencies:
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+The virtual environment should remain active while building and running the developed ROS 2 nodes.
+
+In each new terminal used for development:
+
+```bash
+source /opt/ros/jazzy/setup.bash
+source .venv/bin/activate
+```
+
+Candidates may add any additional dependencies required by their implementation. Any added dependencies should also be included in the appropriate dependency file.
 
 ## Recruitment Data
 
