@@ -1,0 +1,8 @@
+# Python dependencies for the HTU Racing Autonomous Recruitment Task
+#
+# ROS 2 Python packages are installed through apt/ROS and are intentionally
+# not listed here. Candidates may add any additional Python dependencies
+# required by their chosen implementation.
+
+numpy>=1.26,<2.0
+ultralytics>=8.4.0,<8.5.0
