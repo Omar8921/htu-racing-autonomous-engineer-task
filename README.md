@@ -83,7 +83,7 @@ From the project root:
 ```bash
 cd recruitment_data
 
-ros2 bag play recruitment_run \
+ros2 bag play recorded_run \
   --qos-profile-overrides-path qos_override.yaml
 ```
 
