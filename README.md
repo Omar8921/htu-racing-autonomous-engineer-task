@@ -102,10 +102,8 @@ tools/
 Run it from the project root using:
 
 ```bash
-./tools/visualize.sh <lidar_frame>
+./tools/visualize.sh base_footprint
 ```
-
-Replace `<lidar_frame>` with the coordinate frame used by the supplied LiDAR data.
 
 If the script is not executable:
 
