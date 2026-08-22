@@ -83,12 +83,12 @@ Visualization Manager:
       Enabled: true
       Name: Clustered Points
       Alpha: 1
-      Color: 255; 255; 255
+      Color: 255; 0; 0
       Color Transformer: FlatColor
       Position Transformer: XYZ
       Queue Size: 10
       Selectable: true
-      Size (Pixels): 4
+      Size (Pixels): 10
       Size (m): 0.01
       Style: Points
       Topic:
