@@ -143,7 +143,21 @@ export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 
 Make sure all terminals use the same middleware implementation.
 
-If necessary:
+If Cyclone DDS resolves the issue, make the setting persistent:
+
+
+```bash
+echo 'export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp' >> ~/.bashrc
+```
+
+Then reload the shell configuration:
+```bash
+source ~/.bashrc
+```
+
+or open a new terminal.
+
+If ROS 2 CLI discovery is still stale, restart the daemon:
 
 ```bash
 ros2 daemon stop
